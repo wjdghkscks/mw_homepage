@@ -170,7 +170,8 @@ html,body{ height: 100%; }
 	font-family: 'GmarketSansLight';
 	font-size: 6vw;
 	width: 70%;
-	padding-left: 7vw;
+	padding-left: 3vw;
+	padding-top: 1vw;
 	border-left-width:0;
 	border-right-width:0;
 	border-top-width:0;
@@ -179,14 +180,18 @@ html,body{ height: 100%; }
 
 .search_info {
 	display: flex;
+	justify-content: center;
 	margin: 5vw auto;
+	flex-wrap: wrap;
 }
 
 .search_info_res {
 	border: 1px solid #444;
-	width: 31vw;
-	height: 31vw;
-	padding: 2%;
+	width: 83vw;
+	height: 20vw;
+	padding: 2vw;
+	margin: 2vw auto;
+	font-size: 5vw
 }
 
 

@@ -22,11 +22,27 @@
 	</div>
 	<div class="search_info">
 		<div class="search_info_res">
-			<h4>가게이름</h4>
+			<h4>가게 1</h4>
 			<p>주소</p>
 		</div>
 		<div class="search_info_res">
-			<h4>가게이름</h4>
+			<h4>가게 2</h4>
+			<p>주소</p>
+		</div>
+		<div class="search_info_res">
+			<h4>가게 3</h4>
+			<p>주소</p>
+		</div>
+		<div class="search_info_res">
+			<h4>가게 4</h4>
+			<p>주소</p>
+		</div>
+		<div class="search_info_res">
+			<h4>가게 5</h4>
+			<p>주소</p>
+		</div>
+		<div class="search_info_res">
+			<h4>가게 6</h4>
 			<p>주소</p>
 		</div>
 	</div>
