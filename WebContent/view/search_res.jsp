@@ -16,32 +16,32 @@
 	<div class="header">
 		<jsp:include page="top.jsp" />
 	</div>
-	<div class="search_searchbar">
+	<div class="search_res_searchbar">
 		<img alt="search" src="../images/search.svg">
 		<input type="text" name="search" placeholder="밥집">
 	</div>
-	<div class="search_info">
-		<div class="search_info_res">
+	<div class="search_res_info">
+		<div class="search_res_info_res">
 			<h4>가게 1</h4>
 			<p>주소</p>
 		</div>
-		<div class="search_info_res">
+		<div class="search_res_info_res">
 			<h4>가게 2</h4>
 			<p>주소</p>
 		</div>
-		<div class="search_info_res">
+		<div class="search_res_info_res">
 			<h4>가게 3</h4>
 			<p>주소</p>
 		</div>
-		<div class="search_info_res">
+		<div class="search_res_info_res">
 			<h4>가게 4</h4>
 			<p>주소</p>
 		</div>
-		<div class="search_info_res">
+		<div class="search_res_info_res">
 			<h4>가게 5</h4>
 			<p>주소</p>
 		</div>
-		<div class="search_info_res">
+		<div class="search_res_info_res">
 			<h4>가게 6</h4>
 			<p>주소</p>
 		</div>

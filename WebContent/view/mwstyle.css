@@ -151,8 +151,8 @@ html,body{ height: 100%; }
 	color: #444;
 }
 
-/* 검색 결과 */
-.search_searchbar {
+/* search_res */
+.search_res_searchbar {
 	border: 2px solid #e8a761;
 	width: 83%;
 	margin: 0 auto;
@@ -160,13 +160,13 @@ html,body{ height: 100%; }
 	padding: 2%;
 }
 
-.search_searchbar img {
+.search_res_searchbar img {
 	width: 6vw;
 	margin-left: 1%;
 	opacity: 50%;
 }
 
-.search_searchbar input {
+.search_res_searchbar input {
 	font-family: 'GmarketSansLight';
 	font-size: 6vw;
 	width: 70%;
@@ -178,14 +178,14 @@ html,body{ height: 100%; }
 	border-bottom-width:0;
 }
 
-.search_info {
+.search_res_info {
 	display: flex;
 	justify-content: center;
 	margin: 5vw auto;
 	flex-wrap: wrap;
 }
 
-.search_info_res {
+.search_res_info_res {
 	border: 1px solid #444;
 	width: 83vw;
 	height: 20vw;
@@ -194,9 +194,66 @@ html,body{ height: 100%; }
 	font-size: 5vw
 }
 
+/* search_main */
+.search_main_searchbar {
+	border: 2px solid #e8a761;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	width: 83%;
+	margin: 5vw auto;
+	display: flex;
+	padding: 2%;
+}
 
+.search_main_searchbar img {
+	width: 6vw;
+	margin-left: 1%;
+	opacity: 50%;
+}
 
+.search_main_searchbar input {
+	font-family: 'GmarketSansLight';
+	font-size: 6vw;
+	width: 80%;
+	padding-left: 3vw;
+	padding-top: 1vw;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	border-bottom-width:0;
+}
 
+.search_main_items {
+	display: flex;
+	flex-direction: column;
+	width: 83%;
+	margin: 0 auto;
+}
 
+.search_main_items h4 { 
+	font-family: 'GmarketSansBold'; 
+	font-size: 6vw; 
+	color: #e8a761; 
+}
+.search_main_items ul { margin-top: 2vw; }
+
+.search_main_items li { 
+	font-family: 'GmarketSansLight';
+	font-size: 5vw;
+	margin: 2vw auto;
+	color: #444;
+}
+
+.search_main_recommand {
+	margin-top: 5vw;
+}
+
+.search_main_item {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-left: 8vw;
+}
 
 
