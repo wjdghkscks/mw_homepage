@@ -21,7 +21,7 @@
 		</div>
 		<div class="search-bar">
 			<input type="text" name="search" placeholder="검색어를 입력하세요."> 
-			<img alt="search" src="../images/search.svg">
+			<a href="search_res.jsp"><img alt="search" src="../images/search.svg"></a>
 		</div>
 		<div class="category-button">
 			<button onclick="eat_go()">먹거리</button>

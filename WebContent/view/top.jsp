@@ -81,7 +81,7 @@ img { border: none; vertical-align: top; }
 			<h1>로고</h1>
 		</div>
 		<div class="search">
-			<img alt="search" src="../images/search.svg">
+			<a href="search_main.jsp"><img alt="search" src="../images/search.svg"></a>
 		</div>
 		<nav class ="main_navi">
 			<ul class ="navi_wrap">

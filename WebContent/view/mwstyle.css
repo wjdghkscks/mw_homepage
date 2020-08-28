@@ -186,6 +186,7 @@ html,body{ height: 100%; }
 }
 
 .search_res_info_res {
+	font-family: 'GmarketSansLight';
 	border: 1px solid #444;
 	width: 83vw;
 	height: 20vw;
@@ -204,6 +205,8 @@ html,body{ height: 100%; }
 	margin: 5vw auto;
 	display: flex;
 	padding: 2%;
+	opacity: 100%;
+	transition: opacity 2s;
 }
 
 .search_main_searchbar img {
