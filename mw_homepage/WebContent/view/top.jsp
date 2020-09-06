@@ -75,7 +75,7 @@ img { border: none; vertical-align: top; }
 
 	<header class ="main_header">
 		<div>
-			<button class="mobile_menu">▼</button>
+			<button class="mobile_menu"><a href="submenu_mobile.jsp">▼</a></button>
 		</div>
 		<div class ="title">
 			<h1>로고</h1>
@@ -87,7 +87,6 @@ img { border: none; vertical-align: top; }
 			<ul class ="navi_wrap">
 				<li><a href="#">명월소개</a></li>
 				<li><a href="#">가게찾기</a></li>
-				<li><a href="#">이벤트/쿠폰</a></li>
 				<li><a href="#">문의하기</a></li>
 				<li><a href="#">내정보</a></li>
 			</ul>
