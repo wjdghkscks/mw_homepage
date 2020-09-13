@@ -20,7 +20,7 @@
 	<div class="search_category_da">
 		<button>먹거리</button>
 		<button>마실거리</button>
-		<button>놀거2리</button>
+		<button>놀거리</button>
 	</div>
 	
 </body>
