@@ -21,7 +21,6 @@
 		<button>먹거리</button>
 		<button>마실거리</button>
 		<button>놀거리</button>
-		<p>hello</p>
 	</div>
 	
 </body>
