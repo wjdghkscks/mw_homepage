@@ -27,7 +27,7 @@ img { border: none; vertical-align: top; }
 
 
 
-/* 576px 이상 태블릿 */
+/* /* 576px 이상 태블릿
 @media (min-width: 576px) {
 	
 	html,body{ height: auto; }
@@ -60,14 +60,14 @@ img { border: none; vertical-align: top; }
 	.main-banner { height: 50%; }
 }
 
-/* 992px 이상 PC */
+992px 이상 PC
 @media (min-width: 992px) {
 	
-}
+} */
 
 /* main.jsp */
 
-html,body{ height: 100%; }
+html, body{ height: 100%; }
 
 .header {
 	position: relative;
