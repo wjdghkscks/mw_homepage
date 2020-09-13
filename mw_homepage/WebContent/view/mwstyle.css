@@ -289,21 +289,16 @@ html,body{ height: 100%; }
 	width: 34%;
 	padding: 1vw;
 	font-size: 5vw;
-	color: #e8a761;
-	border: 0px solid black;
+	color: white;
+	background-color: #e8a761;
+	padding-top: 2%;
+	border: 0px solid #eee;
 }
 
 .search_category_da button:hover {
-	background-color: #e8a761;
-	color: white;
+	background-color: rgb(248, 225, 201);
+	color: #e8a761;
 }
-
-
-
-
-
-
-
 
 
 
