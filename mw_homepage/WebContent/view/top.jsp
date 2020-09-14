@@ -16,46 +16,18 @@
 
 <title>Insert title here</title>
 
-
+<link rel="stylesheet" type="text/css" href="css/resetAll.css">
 <style type="text/css">
-
-/* 초기화 */
-* { margin: 0; padding: 0; background-color: white; }
-li { list-style: none; }
-a { text-decoration: none; color: black; }
-img { border: none; vertical-align: top; }
-
-/* 웹 폰트 */
-@font-face {
-	font-family: 'GmarketSansBold';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff')
-		format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'GmarketSansLight';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff')
-		format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 .main_header {
 	font-family: 'GmarketSansBold';
 	display: flex;
 	justify-content: space-around;
 	width: 90%;
-	margin: 3vw auto;
+	margin: 12vw auto;
 }
-
 .title { color: #444; margin: 0 auto; font-size: 4vw; }
-
 .search img { height: 9vw; }
-
 .main_navi { display: none; }
-
 .mobile_menu { 
 	display: inline;
 	font-size: 8vw;
@@ -72,7 +44,6 @@ img { border: none; vertical-align: top; }
 @media (min-width: 992px) {
 	
 }
-
 </style>
 
 </head>

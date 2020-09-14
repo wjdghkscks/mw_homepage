@@ -14,7 +14,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <title>명월-명지월드의 모든 것</title>
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
-<link rel="stylesheet" type="text/css" href="css/mainCss.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>

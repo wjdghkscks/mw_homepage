@@ -6,7 +6,8 @@
 
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="mwstyle.css">
+<link rel="stylesheet" type="text/css" href="css/resetAll.css">
+<link rel="stylesheet" type="text/css" href="css/submenu_mobile.css">
 <title>메뉴</title>
 <style type="text/css">
 	* {
