@@ -6,9 +6,9 @@
 
 <head>
 <meta charset="UTF-8">
+<title>메뉴</title>
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
 <link rel="stylesheet" type="text/css" href="css/submenu_mobile.css">
-<title>메뉴</title>
 <style type="text/css">
 	* {
 		background-color: #e8a761;

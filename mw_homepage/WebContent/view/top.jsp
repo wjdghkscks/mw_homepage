@@ -5,34 +5,26 @@
 <html>
 
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Bootstrap4 MaxCDN -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 <title>Insert title here</title>
-
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
 <style type="text/css">
 .main_header {
 	font-family: 'GmarketSansBold';
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
 	width: 90%;
-	margin: 12vw auto;
+	margin: 4vw auto 3vw auto;
 }
-.title { color: #444; margin: 0 auto; font-size: 4vw; }
+.title { color: #444; margin: 0 auto; font-size: 5vw; }
 .search img { height: 9vw; }
 .main_navi { display: none; }
 .mobile_menu { 
-	display: inline;
+	display: flex;
 	font-size: 8vw;
 	border: none;
-	background-color: white;
+	background-color: RGBA(255, 255, 255, 0);
 }
 
 /* 576px 이상 */
@@ -45,8 +37,8 @@
 	
 }
 </style>
-
 </head>
+
 <body>
 
 	<header class ="main_header">

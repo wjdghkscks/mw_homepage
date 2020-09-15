@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* search_category */
+.search_category_da {
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+.search_category_da button {
+	font-family: 'GmarketSansBold';
+	width: 34%;
+	padding: 1vw;
+	font-size: 5vw;
+	color: white;
+	background-color: #e8a761;
+	padding-top: 2%;
+	border: 0px solid #eee;
+}
+
+.search_category_da button:hover {
+	background-color: rgb(248, 225, 201);
+	color: #e8a761;
+}
+
+
+
+
