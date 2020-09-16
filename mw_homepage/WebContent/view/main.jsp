@@ -13,12 +13,12 @@
 </head>
 
 <body>
-	<div class="header">
-		<jsp:include page="top.jsp" />
-	</div>
 	<div class="wrap-all">
+		<div>
+			<jsp:include page="top.jsp" />
+		</div>
 		<div class="main-banner">
-			<img alt="banner" src="../images/banner.png">
+			<img alt="banner" src="../images/banner_img.png">
 		</div>
 		<div class="search-bar">
 			<input type="text" name="search" placeholder="검색어를 입력하세요."> 

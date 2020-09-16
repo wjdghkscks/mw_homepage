@@ -26,6 +26,7 @@
 	border: none;
 	background-color: RGBA(255, 255, 255, 0);
 }
+.mobile_menu a { color: #444; }
 
 /* 576px 이상 */
 @media (min-width: 576px){

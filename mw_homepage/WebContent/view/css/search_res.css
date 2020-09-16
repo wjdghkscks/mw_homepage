@@ -17,7 +17,7 @@
 
 .search_res_searchbar input {
 	font-family: 'GmarketSansLight';
-	font-size: 6vw;
+	font-size: 5vw;
 	width: 70%;
 	padding-left: 3vw;
 	padding-top: 1vw;
@@ -27,19 +27,43 @@
 	border-bottom-width:0;
 }
 
-.search_res_info {
+.cardview {
 	display: flex;
-	justify-content: center;
-	margin: 5vw auto;
 	flex-wrap: wrap;
+	width: 90%;
+	margin: 1vw auto;
 }
 
-.search_res_info_res {
+.card {
+  box-shadow: 0 2vw 2vw 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 47%;
+  margin: 5vw auto;
+}
+
+.card:hover {
+  box-shadow: 0 4vw 4vw 0 rgba(0,0,0,0.2);
+  width: 48%;
+}
+
+.card img {
+	margin-top: 2vw;
+}
+
+.text_container {
+	padding: 2vw 5vw;
+}
+
+.text_container h4 { 
+	font-family: 'GmarketSansBold';
+	color: #444;
+	text-align: center;
+	font-size: 4vw;
+}
+
+.text_container p { 
 	font-family: 'GmarketSansLight';
-	border: 1px solid #444;
-	width: 83vw;
-	height: 20vw;
-	padding: 2vw;
-	margin: 2vw auto;
-	font-size: 5vw
+	color: #777;
+	font-size: 3vw;
+	text-align: center;
 }

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     
 <!DOCTYPE html>
 <html>
@@ -13,38 +14,58 @@
 </head>
 
 <body>
-	<div class="header">
+	<div>
 		<jsp:include page="top.jsp" />
 	</div>
 	<div class="search_res_searchbar">
 		<img alt="search" src="../images/search.svg">
-		<input type="text" name="search" placeholder="밥집">
+		<input type="text" name="search" placeholder="검색 결과">
 	</div>
-	<div class="search_res_info">
-		<div class="search_res_info_res">
-			<h3>가게 1</h3>
-			<p>주소</p>
+	<div class="cardview">
+	<%-- <c:forEach var="k" item="${ }" > --%>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
-		<div class="search_res_info_res">
-			<h3>가게 2</h3>
-			<p>주소</p>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
-		<div class="search_res_info_res">
-			<h3>가게 3</h3>
-			<p>주소</p>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
-		<div class="search_res_info_res">
-			<h3>가게 4</h3>
-			<p>주소</p>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
-		<div class="search_res_info_res">
-			<h3>가게 5</h3>
-			<p>주소</p>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
-		<div class="search_res_info_res">
-			<h3>가게 6</h3>
-			<p>주소</p>
+		<div class="card">
+			<img alt="shop" src="../images/shop.png" style="width: 100%">
+			<div class="text_container">
+				<h4><b>NAME</b></h4>
+				<p>#tag1 #tag2 #tag3</p>
+			</div>
 		</div>
+	<%-- </c:forEach> --%>
 	</div>
 </body>
 </html>
