@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* search_res */
+.search_res_searchbar {
+	border: 2px solid #e8a761;
+	width: 83%;
+	margin: 0 auto;
+	display: flex;
+	padding: 2%;
+}
+
+.search_res_searchbar img {
+	width: 6vw;
+	margin-left: 1%;
+	opacity: 50%;
+}
+
+.search_res_searchbar input {
+	font-family: 'GmarketSansLight';
+	font-size: 6vw;
+	width: 70%;
+	padding-left: 3vw;
+	padding-top: 1vw;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	border-bottom-width:0;
+}
+
+.search_res_info {
+	display: flex;
+	justify-content: center;
+	margin: 5vw auto;
+	flex-wrap: wrap;
+}
+
+.search_res_info_res {
+	font-family: 'GmarketSansLight';
+	border: 1px solid #444;
+	width: 83vw;
+	height: 20vw;
+	padding: 2vw;
+	margin: 2vw auto;
+	font-size: 5vw
+}
