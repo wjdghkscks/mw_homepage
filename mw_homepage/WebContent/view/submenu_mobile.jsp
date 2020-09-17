@@ -21,7 +21,7 @@
 	<h3 class="submenu_title"> 메뉴 </h3>
 	
 	<ul class = "submenu_list">
-		<li><a href="#">홈</a></li>
+		<li><a href="main.jsp">홈</a></li>
 		<li><a href="#">명월소개</a></li>
 		<li><a href="search_main.jsp">가게찾기</a></li>
 		<li><a href="#">문의하기</a></li>

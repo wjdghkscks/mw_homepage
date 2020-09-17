@@ -17,7 +17,8 @@
 	width: 90%;
 	margin: 4vw auto 3vw auto;
 }
-.title { color: #444; margin: 0 auto; font-size: 5vw; }
+.title { margin: 0 auto; font-size: 5vw; }
+.title a { color: #444; }
 .search img { height: 9vw; }
 .main_navi { display: none; }
 .mobile_menu { 
@@ -47,7 +48,7 @@
 			<button class="mobile_menu"><a href="submenu_mobile.jsp">▼</a></button>
 		</div>
 		<div class ="title">
-			<h1>로고</h1>
+			<h1><a href="main.jsp">로고</a></h1>
 		</div>
 		<div class="search">
 			<a href="search_main.jsp"><img alt="search" src="../images/search.svg"></a>

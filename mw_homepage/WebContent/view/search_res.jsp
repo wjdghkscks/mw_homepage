@@ -19,7 +19,7 @@
 	</div>
 	<div class="search_res_searchbar">
 		<img alt="search" src="../images/search.svg">
-		<input type="text" name="search" placeholder="검색 결과">
+		<input type="text" name="search" placeholder="검색어">
 	</div>
 	<div class="cardview">
 	<%-- <c:forEach var="k" item="${ }" > --%>
