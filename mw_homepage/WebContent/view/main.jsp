@@ -77,7 +77,8 @@
 			</div>
 		<%-- </c:forEach> --%>
 		</div>
-		<div class="footer"></div>
+		<div class="footer">
+		</div>
 	</div>
 </body>
 </html>

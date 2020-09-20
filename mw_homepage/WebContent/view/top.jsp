@@ -18,7 +18,7 @@
 		margin: 4vw auto 3vw auto;
 	}
 	.title { margin: 0 auto; font-size: 5vw; }
-	.title a { color: #444; }
+	.title a { color: #e8a761; }
 	.search img { height: 9vw; }
 	.main_navi { display: none; }
 	.mobile_menu { 
