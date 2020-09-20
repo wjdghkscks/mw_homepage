@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+.wrap-all {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.header_top {
+	display: flex;
+	justify-content: space-between;
+	margin: 3vw;
+}
+
+.info_title h2 {
+	font-family:'GmarketSansBold';
+	color: #444;
+	font-size: 8vw;
+}
+
+.info_title h5 {
+	font-family:'GmarketSansLight';
+	color: #777;
+	font-size: 4vw;
+}
+
+.numbers {
+	font-family:'GmarketSansLight';
+	margin: auto 0;
+}
+
+.numbers h5 {
+	padding: 3%;
+}
+
+.photos img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.hashtag {
+	display: flex;
+	padding: 0 3vw;
+}
+
+.hashtag div {
+	font-family:'GmarketSansBold';
+	padding: 2vw;
+	margin: 3vw 1vw;
+	text-align: center;
+	font-size: 2.5vw;
+	color: #444;
+	border: 2px solid #444;
+	border-radius: 10%;
+}
+
+.brief {
+	display: flex;
+	justify-content: space-between;
+	padding: 1vw 5vw;
+}
+
+.brief_item {
+	padding: 1vw;
+}
+
+.brief_item img {
+	width: 10vw;
+}
+
+.brief_item h5 {
+	text-align: center;
+	color: #444;
+	font-size: 4vw;
+	padding-top: 2vw;
+}
+
+.article_tab {
+	display: flex;
+	justify-content: space-between;
+	padding: 1vw 5vw;
+}
+
+.article_tab div {
+	font-family:'GmarketSansBold';
+	padding: 1.5vw 8vw 1.5vw 4vw;
+	font-size: 4.5vw;
+	color: #444;
+}
+
+.store_info {
+	padding: 3vw 5vw;
+	color: #444;
+}
+.store_info h2 {
+	font-family:'GmarketSansBold';
+	text-align: center;
+	font-size: 6vw;
+	margin: 1vw;
+}
+
+.store_info b {
+	font-family:'GmarketSansBold';
+	font-size: 3.5vw;
+}
+
+.store_info li {
+	font-family:'GmarketSansLight';
+	font-size: 3.5vw;
+	padding: 1vw;
+}
+
+.store_map {
+	text-align: center;
+	padding: 3vw;
+}
+
+.store_map h2 {
+	font-family:'GmarketSansBold';
+	text-align: center;
+	font-size: 6vw;
+	margin: 1vw;
+	color: #444;
+}
+
+.store_map img {
+	padding: 1vw;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.store_review h2 {
+	font-family:'GmarketSansBold';
+	text-align: center;
+	font-size: 6vw;
+	padding: 3vw 0;
+	margin: 1vw;
+	color: #444;
+}
+
+.store_review_context {
+	background-color: #eee;
+	width: 100%;
+	padding: 3vw;
+	margin: 1vw 0;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.reviewer {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 3vw;
+}
+
+.reviewr_info h5 {
+	font-family:'GmarketSansBold';
+	font-size: 5vw;
+}
+
+.review_context {
+	width: 90%;
+	padding: 2vw 3vw 0vw 3vw;
+}
+
+
+
+
+.footer {
+	height: 20vw;
+	background-color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

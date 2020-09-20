@@ -10,24 +10,24 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
 <style type="text/css">
-.main_header {
-	font-family: 'GmarketSansBold';
-	display: flex;
-	flex-direction: row;
-	width: 90%;
-	margin: 4vw auto 3vw auto;
-}
-.title { margin: 0 auto; font-size: 5vw; }
-.title a { color: #444; }
-.search img { height: 9vw; }
-.main_navi { display: none; }
-.mobile_menu { 
-	display: flex;
-	font-size: 8vw;
-	border: none;
-	background-color: RGBA(255, 255, 255, 0);
-}
-.mobile_menu a { color: #444; }
+	.main_header {
+		font-family: 'GmarketSansBold';
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+		margin: 4vw auto 3vw auto;
+	}
+	.title { margin: 0 auto; font-size: 5vw; }
+	.title a { color: #444; }
+	.search img { height: 9vw; }
+	.main_navi { display: none; }
+	.mobile_menu { 
+		display: flex;
+		font-size: 8vw;
+		border: none;
+		background-color: RGBA(255, 255, 255, 0);
+	}
+	.mobile_menu a { color: #444; }
 
 /* 576px 이상 */
 @media (min-width: 576px){

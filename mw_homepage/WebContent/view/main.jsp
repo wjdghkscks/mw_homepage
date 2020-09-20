@@ -68,6 +68,13 @@
 					<p>#tag1 #tag2 #tag3</p>
 				</div>
 			</div>
+			<div class="card">
+				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<div class="text_container">
+					<h4><b>NAME</b></h4>
+					<p>#tag1 #tag2 #tag3</p>
+				</div>
+			</div>
 		<%-- </c:forEach> --%>
 		</div>
 		<div class="footer"></div>
