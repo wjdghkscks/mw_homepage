@@ -14,7 +14,7 @@
 
 .info_title h2 {
 	font-family:'GmarketSansBold';
-	color: #444;
+	color: #e8a761;
 	font-size: 8vw;
 }
 
@@ -45,7 +45,7 @@
 
 .hashtag div {
 	font-family:'GmarketSansBold';
-	padding: 2vw;
+	padding: 2.5vw 2vw 2vw 2vw;
 	margin: 3vw 1vw;
 	text-align: center;
 	font-size: 2.5vw;
@@ -129,6 +129,10 @@
 	margin: 0 auto;
 }
 
+.store_review {
+	margin-bottom: 3vw;
+}
+
 .store_review h2 {
 	font-family:'GmarketSansBold';
 	text-align: center;
@@ -141,10 +145,9 @@
 .store_review_context {
 	background-color: #eee;
 	padding: 3vw;
-	margin: 1vw 0;
+	margin: 1vw 0 3vw 0;
 	display: flex;
 	flex-direction: column;
-	
 }
 
 .reviewer {
@@ -152,23 +155,35 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 0 3vw;
+	margin: 1vw 0;
 }
 
-.reviewr_info h5 {
-	font-family:'GmarketSansBold';
-	font-size: 5vw;
+.reviewer_info h5 {
+	font-family:'GmarketSansLight';
+	font-size: 4vw;
+}
+
+.reviewer_info p {
+	font-family:'GmarketSansLight';
+	font-size: 3vw;
+	color: #777;
+}
+
+.reviewer img {
+	width: 8vw;
 }
 
 .review_context {
-	width: 90%;
-	padding: 2vw 3vw 0vw 3vw;
+	font-family:'GmarketSansLight';
+	width: 95%;
+	padding: 2vw 3vw 2vw 3vw;
 }
 
 
 
 
 .footer {
-	height: 20vw;
+	height: 40vw;
 	background-color: #444;
 }
 

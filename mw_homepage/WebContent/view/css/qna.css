@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.wrap-all {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.btn {
+	text-align: center;
+	margin: 7vw 0;
+}
+
+.btn input {
+	font-family: 'GmarketSansBold';
+	background-color: #e8a761;
+	color: white;
+	border: thin;
+	border-radius: 1vw;
+	font-size: 6vw;
+	padding: 3vw;
+	width: 100%;
+}
+
+.list_title {
+	text-align: center;
+	padding: 3vw;
+}
+
+.list_title h2 {
+	font-family: 'GmarketSansBold';
+	color: #444;
+	font-size: 8vw;
+	text-align: center;
+}
+
+.qna_list {
+	color: #444;
+	margin-top: 5vw;
+}
+
+.qna_one {
+	display: flex;
+	justify-content: space-between;
+	margin: 3vw 1vw;
+}
+
+.qna_one h4 {
+	font-family: 'GmarketSansBold';
+	color: #444;
+	font-size: 5vw;
+}
+
+.qna_one p {
+	font-family: 'GmarketSansLight';
+	color: #444;
+	font-size: 2vw;
+	margin: auto 0;
+}

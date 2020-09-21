@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.wrap-all {
+	width: 90%;
+	margin: 0 auto;
+	color: #444;
+}
+
+form {
+	text-align: center;
+}
+
+.qna_title {
+	margin: 5vw;
+}
+
+.qna_title h2 {
+	font-family: 'GmarketSansBold';
+	font-size: 10vw;
+}
+
+.qna_title input {
+	margin: 8vw 0;
+	width: 100%;
+	font-family: 'GmarketSansLight';
+	font-size: 7vw;
+	text-align: center;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+	border-bottom-width:1;
+}
+
+.qna_context {
+	margin: 5vw;
+	text-align: center;
+}
+
+.qna_context textarea {
+	width: 90%;
+	height: 60vw;
+	padding: 5%;
+	font-family: 'GmarketSansLight';
+	font-size: 5vw;
+}
+
+.qna_context textarea::placeholder {
+	font-family: 'GmarketSansLight';
+	text-align: center;
+	font-size: 5vw;
+}
+
+.qna_submit {
+	display: flex;
+	justify-content: center;
+}
+
+.qna_submit div {
+	font-family: 'GmarketSansBold';
+	padding: 3vw;
+	margin: auto 0;
+	font-size: 6vw;
+	background: white;
+	border: 2px solid #444;
+	border-color: #444;
+	border-radius: 10%;
+}
+
+.qna_submit div p {
+	margin: auto 0;
+}
+
+
+
+
+
+

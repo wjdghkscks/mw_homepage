@@ -7,6 +7,7 @@
 
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>가게 상세</title>
 <link rel="stylesheet" type="text/css" href="css/store_detail.css">
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
@@ -90,7 +91,7 @@
 			<hr>
 			 -->
 			<div class="store_info">
-				<h2>가게정보</h2>
+				<h2>가게 정보</h2>
 				<ul>
 					<li><b>가게위치&nbsp;&nbsp;</b>가게 주소가 여기에 들어갑니다.</li>
 					<li><b>전화번호&nbsp;&nbsp;</b>가게 전화번호가 여기에 들어갑니다.</li>
@@ -113,13 +114,46 @@
 				<div class="store_review_context">
 					<div class="reviewer">
 						<div class="reviewer_info">
-							<h5>작성자 이름</h5>
+							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="" onclick="like_review()">
+						<img alt="like" src="../images/search.svg" onclick="like_review()">
 					</div>
+					<hr style="width: 94%; margin: 0 auto;">
 					<div class="review_context">
-						<p>리뷰 내용이 여기에 표시됩니다.리뷰 내용이 여기에 표시됩니다.리뷰 내용이 여기에 표시됩니다.</p>
+						<p>
+							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
+						</p>
+					</div>
+				</div>
+				<div class="store_review_context">
+					<div class="reviewer">
+						<div class="reviewer_info">
+							<h5><b>작성자 이름</b></h5>
+							<p>방문 일자가 여기에 표시됩니다.</p>
+						</div>
+						<img alt="like" src="../images/search.svg" onclick="like_review()">
+					</div>
+					<hr style="width: 94%; margin: 0 auto;">
+					<div class="review_context">
+						<p>
+							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
+						</p>
+					</div>
+				</div>
+				<div class="store_review_context">
+					<div class="reviewer">
+						<div class="reviewer_info">
+							<h5><b>작성자 이름</b></h5>
+							<p>방문 일자가 여기에 표시됩니다.</p>
+						</div>
+						<img alt="like" src="../images/search.svg" onclick="like_review()">
+					</div>
+					<hr style="width: 94%; margin: 0 auto;">
+					<div class="review_context">
+						<p>
+							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
+						</p>
 					</div>
 				</div>
 				
