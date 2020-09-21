@@ -15,7 +15,7 @@
 .info_title h2 {
 	font-family:'GmarketSansBold';
 	color: #e8a761;
-	font-size: 8vw;
+	font-size: 10vw;
 }
 
 .info_title h5 {
@@ -177,14 +177,6 @@
 	font-family:'GmarketSansLight';
 	width: 95%;
 	padding: 2vw 3vw 2vw 3vw;
-}
-
-
-
-
-.footer {
-	height: 40vw;
-	background-color: #444;
 }
 
 

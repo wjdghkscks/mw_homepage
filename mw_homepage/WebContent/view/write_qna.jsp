@@ -26,6 +26,7 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
+	
 	<hr style="background-color: #444">
 
 	<div class="wrap-all">
@@ -38,15 +39,11 @@
 				<textarea placeholder="문의 내용을 입력하세요." autofocus></textarea>
 			</div>
 			<div class="qna_submit">
-				<div>
-					<p>제출</p>
-				</div>
-				<div>
-					<p>취소</p>
-				</div>
+				<input type="button" value="제출">
+				<input type="button" value="취소">
 			</div>
 		</form>
 	</div>
-
+	
 </body>
 </html>

@@ -56,3 +56,10 @@
 	font-size: 2vw;
 	margin: auto 0;
 }
+
+.footer {
+	height: 20vw;
+	background-color: #444;
+	position:absolute;
+	bottom:0;
+}
