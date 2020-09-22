@@ -77,13 +77,14 @@ html, body{ height: 100%; }
 	font-family: 'GmarketSansLight';
 	text-align: center;
 	color: #444;
+	margin-bottom: 5vw;
 }
 
 .cardview {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 90%;
+	width: 80%;
 	margin: 1vw auto;
 }
 
@@ -120,14 +121,6 @@ html, body{ height: 100%; }
 	color: #777;
 	font-size: 3vw;
 	text-align: center;
-}
-
-
-
-
-.footer {
-	height: 20vw;
-	background-color: #444;
 }
 
 

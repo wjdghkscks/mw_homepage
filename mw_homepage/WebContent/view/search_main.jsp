@@ -10,13 +10,19 @@
 <title>검색하기</title>
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
 <link rel="stylesheet" type="text/css" href="css/search_main.css">
+<script type="text/javascript">
+	function back_go() {
+		history.go(-1);
+	}
+</script>
 </head>
-
+	
 <body>
 
 	<div class="search_main_searchbar">
-		<img alt="search" src="../images/search.svg">
+		<a onclick="back_go()">◀</a>
 		<input type="text" name="search" placeholder="검색어를 입력해주세요.">
+		<img alt="search" src="../images/search.svg">
 	</div>
 	
 	<div class="search_main_items">

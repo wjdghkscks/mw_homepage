@@ -24,8 +24,8 @@
 		<li><a href="main.jsp">홈</a></li>
 		<li><a href="#">명월소개</a></li>
 		<li><a href="search_main.jsp">가게찾기</a></li>
-		<li><a href="#">문의하기</a></li>
-		<li><a href="#">내정보</a></li>
+		<li><a href="qna.jsp">문의하기</a></li>
+		<li><a href="user_info.jsp">내정보</a></li>
 	</ul>
 
 </body>

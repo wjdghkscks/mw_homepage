@@ -23,7 +23,7 @@
 
 .list_title {
 	text-align: center;
-	padding: 3vw;
+	padding-bottom: 3vw;
 }
 
 .list_title h2 {
@@ -45,7 +45,7 @@
 }
 
 .qna_one h4 {
-	font-family: 'GmarketSansBold';
+	font-family: 'GmarketSansLight';
 	color: #444;
 	font-size: 5vw;
 }
