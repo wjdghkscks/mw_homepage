@@ -31,7 +31,7 @@
 
 /* 576px 이상 */
 @media (min-width: 576px){
-	.main_navi { display: flex; }
+	.main_navi { display: none; }
 }
 
 /* 992px 이상 PC */

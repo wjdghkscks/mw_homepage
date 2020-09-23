@@ -18,26 +18,33 @@
 </head>
 
 <body>
+	<div>
+		<jsp:include page="top.jsp" />
+	</div>
+	<hr>
+	
 	<div class="wrap-all">
-		<div>
-			<jsp:include page="top.jsp" />
+		<div class="main_banner">
+			<img src="../images/banner01.png">
+			<img src="../images/banner02.png">
+			<img src="../images/banner03.png">
 		</div>
-		<div class="main-banner">
-			<img alt="banner" src="../images/banner_img.png">
-		</div>
+		
 		<div class="category">
 			<div onclick="category_go()">먹거리</div>
 			<div>마실거리</div>
 			<div>놀거리</div>
 		</div>
+		
 		<div class="search-bar">
 			<input type="text" name="search" placeholder="검색어를 입력하세요."> 
 			<a href="search_res.jsp"><img alt="search" src="../images/search.svg"></a>
 		</div>
-		<br>
+		
 		<div class="story">
 			<h3> 최근 본 가게 </h3>
 		</div>
+		
 		<div class="cardview">
 		<%-- <c:forEach var="k" item="${ }" > --%>
 			<div class="card">

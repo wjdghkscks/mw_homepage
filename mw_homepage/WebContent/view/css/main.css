@@ -3,23 +3,26 @@
 /* main.jsp */
 html, body{ height: 100%; }
 
-.header {
-	position: relative;
-	z-index: 1;
-	width: 0 auto;
-}
-.footer {
-	height: 0%;
-	background: #eee;
-}
-
 .wrap-all {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	margin-top: 5vw;
 }
 
-.main-banner img { 
+.main_banner {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 5%;
+	display: flex;
+	overflow-x: auto; 
+}
+
+.main_banner::-webkit-scrollbar {
+	display: none;
+}
+
+.main_banner img { 
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -85,7 +88,7 @@ html, body{ height: 100%; }
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 80%;
-	margin: 1vw auto;
+	margin: 1vw auto 10vw auto;
 }
 
 .card {
@@ -122,9 +125,3 @@ html, body{ height: 100%; }
 	font-size: 3vw;
 	text-align: center;
 }
-
-
-
-
-
-
