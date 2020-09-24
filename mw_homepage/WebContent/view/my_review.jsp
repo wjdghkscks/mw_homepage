@@ -17,7 +17,6 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
-	<hr>
 	
 	<div class="wrap-all">
 		<div class="review_title">

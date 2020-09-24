@@ -1,26 +1,23 @@
 @charset "UTF-8";
 
-/* search_res */
 .search_res_searchbar {
 	border: 2px solid #e8a761;
 	width: 83%;
-	margin: 0 auto;
+	margin: 8vw auto 0 auto;
 	display: flex;
+	justify-content: space-between;
 	padding: 2%;
 }
 
 .search_res_searchbar img {
 	width: 6vw;
 	margin-left: 1%;
-	opacity: 50%;
 }
 
 .search_res_searchbar input {
 	font-family: 'GmarketSansLight';
 	font-size: 5vw;
-	width: 70%;
-	padding-left: 3vw;
-	padding-top: 1vw;
+	width: 85%;
 	border-left-width:0;
 	border-right-width:0;
 	border-top-width:0;
@@ -71,6 +68,10 @@
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
+
+.search_res_searchbar {
+	border: 3px solid #e8a761;
+}
 	
 }
 

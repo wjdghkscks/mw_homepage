@@ -31,6 +31,7 @@
 
 .numbers h5 {
 	padding: 3%;
+	font-size: 3vw;
 }
 
 .photos img {
@@ -57,22 +58,25 @@
 .brief {
 	display: flex;
 	justify-content: space-between;
-	padding: 1vw 5vw;
+	padding: 3vw 9vw;
 }
 
 .brief_item {
 	padding: 1vw;
+	text-align: center;
+	margin: auto 0;
 }
 
 .brief_item img {
-	width: 10vw;
+	width: 8vw;
 }
 
 .brief_item h5 {
+	font-family:'GmarketSansBold';
 	text-align: center;
 	color: #444;
 	font-size: 4vw;
-	padding-top: 2vw;
+	padding-top: 3vw;
 }
 
 .article_tab {
@@ -89,37 +93,38 @@
 }
 
 .store_info {
-	padding: 3vw 5vw;
+	padding: 5vw;
 	color: #444;
 }
 .store_info h2 {
 	font-family:'GmarketSansBold';
 	text-align: center;
 	font-size: 6vw;
-	margin: 1vw;
+	margin-bottom: 3vw;
 }
 
 .store_info b {
 	font-family:'GmarketSansBold';
-	font-size: 3.5vw;
+	font-size: 4vw;
 }
 
 .store_info li {
 	font-family:'GmarketSansLight';
-	font-size: 3.5vw;
+	font-size: 4vw;
 	padding: 1vw;
 }
 
 .store_map {
 	text-align: center;
-	padding: 3vw;
+	padding: 5vw;
+	color: #444;
 }
 
 .store_map h2 {
 	font-family:'GmarketSansBold';
 	text-align: center;
 	font-size: 6vw;
-	margin: 1vw;
+	margin-bottom: 3vw;
 	color: #444;
 }
 
@@ -130,15 +135,15 @@
 }
 
 .store_review {
-	margin-bottom: 3vw;
+	padding: 5vw 0;
+	color: #444;
 }
 
 .store_review h2 {
 	font-family:'GmarketSansBold';
 	text-align: center;
 	font-size: 6vw;
-	padding: 3vw 0;
-	margin: 1vw;
+	margin-bottom: 3vw;
 	color: #444;
 }
 

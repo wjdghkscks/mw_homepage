@@ -13,7 +13,7 @@ html, body{ height: 100%; }
 .main_banner {
 	width: 90%;
 	margin: 0 auto;
-	border-radius: 5%;
+	border-radius: 10px;
 	display: flex;
 	overflow-x: auto; 
 }
@@ -45,7 +45,7 @@ html, body{ height: 100%; }
 	color: #444;
 	padding-top: 2%;
 	border: 2px solid #444;
-	border-radius: 5%;
+	border-radius: 5px;
 }
 
 .category div:hover {
@@ -58,14 +58,14 @@ html, body{ height: 100%; }
 	display: flex;
 	text-align: center;
 	margin: 5vw auto;
-	width: 90vw;
+	width: 90%;
 }
 
 .search-bar img { width: 9vw; }
 
 .search-bar input {
 	padding: 5px;
-	border: 1px solid #777;
+	border: 1px solid #444;
 	width: 90%;
 	font-family: 'GmarketSansLight';
 	font-size: 6vw;
@@ -105,6 +105,7 @@ html, body{ height: 100%; }
 
 .card img {
 	margin-top: 2vw;
+	width: 100%;
 }
 
 .text_container {
@@ -125,3 +126,110 @@ html, body{ height: 100%; }
 	font-size: 3vw;
 	text-align: center;
 }
+
+/* 576px 이상 tablet */
+@media (min-width: 576px){
+	
+.category div {
+	border: 3px solid #444;
+	border-radius: 5%;
+}
+
+.search-bar input {
+	border: 2px solid #444;
+	text-align: center;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 1;
+}
+
+.story {
+	font-size: 4vw
+}	
+	
+}
+
+/* 992px 이상 PC */
+@media (min-width: 992px) {
+	.wrap-all {
+		width: 890px;
+		margin: 0 auto;
+	}
+	.main_banner {
+		margin: 30px auto 0 auto;
+		border-radius: 20px;
+	}
+	.category div {
+		font-size: 24px;
+		margin: 40px 20px;
+		color: #444;
+		border-radius: 10px;
+		border: 2px solid #444;
+	}
+	.search-bar {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+	.search-bar input {
+		width: 90%;
+		font-size: 30px;
+		text-align: center;
+		border-color: #444;
+	}
+	.search-bar a {
+		margin: auto 0;
+	}
+	.search-bar img {
+		width: 50%;
+	}
+	.story {
+		font-size: 24px;
+		margin: 50px auto;
+	}
+	.cardview {
+		display: flex;
+	}
+	.card {
+		display: flex;
+		width: 100%;
+		margin: 20px auto;
+		box-shadow: 0 0 0 0 #fff;
+		border: 2px solid #444;
+		border-radius: 10px;
+	}
+	.card:hover {
+	  	width: 100%;
+	}
+	.card img {
+		width: 25%;
+		margin: auto 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

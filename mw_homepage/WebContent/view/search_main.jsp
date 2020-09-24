@@ -20,9 +20,9 @@
 <body>
 
 	<div class="search_main_searchbar">
-		<a onclick="back_go()">◀</a>
+		<a onclick="back_go()"><img alt="back" src="../images/back_icon.svg"></a>
 		<input type="text" name="search" placeholder="검색어를 입력해주세요.">
-		<img alt="search" src="../images/search.svg">
+		<img alt="search" src="../images/search_icon.svg">
 	</div>
 	
 	<div class="search_main_items">

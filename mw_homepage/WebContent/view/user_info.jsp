@@ -29,13 +29,14 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
-	<hr>
 	
 	<div class="wrap-all">
 		<div class="info">
 			<img alt="profile" src="../images/avatar.svg">
-			<h2>닉네임</h2>
-			<h4>@mw_manager_01</h4>
+			<div class="profile_text">
+				<h2>닉네임</h2>
+				<h4>@mw_manager_01</h4>
+			</div>
 		</div>
 		<div class="user_menu">
 			<div class="menu_item">

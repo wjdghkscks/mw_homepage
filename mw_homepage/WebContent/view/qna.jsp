@@ -23,7 +23,6 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
-	<hr style="color: #444;">
 
 	<div class="wrap-all">
 		

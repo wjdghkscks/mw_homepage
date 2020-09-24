@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: center;
 	width: 90%;
-	margin: 0 auto;
+	margin: 5vw auto 0 auto;
 }
 
 .biggerCategory div {
@@ -40,7 +40,7 @@
 
 .smallEat {
 	display: flex;
-	width: 230%;
+	width: 250%;
 	height: 10%;
 	margin: 0 auto;
 	overflow-x: auto;
@@ -48,10 +48,10 @@
 
 .smallEat div {
 	font-family:'GmarketSansBold';
-	padding: 3vw;
+	padding: 4vw;
 	margin: 3vw 1vw;
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 4vw;
 	color: #444;
 	border: 2px solid #444;
 	border-radius: 50%;
@@ -67,7 +67,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 8vw auto;
 }
 
 .card {
@@ -107,6 +107,20 @@
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
+
+.biggerCategory div {
+	border: 3px solid #444;
+	border-radius: 10px;
+}
+
+.smallEat div {
+	border: 3px solid #444;
+	border-radius: 50%;
+}
+
+.smallEat {
+	width: 245%;
+}
 	
 }
 

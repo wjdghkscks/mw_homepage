@@ -2,22 +2,19 @@
 
 /* search_main */
 .search_main_searchbar {
-	border: 2px solid #e8a761;
-	border-left-width:0;
-	border-right-width:0;
-	border-top-width:0;
-	width: 80%;
-	margin: 5vw auto;
-	display: flex;
-	padding: 3%;
-	opacity: 100%;
+	width: 85%;
+	padding: 3vw 0;
+	margin: 8vw auto;
 	display: flex;
 	justify-content: space-between;
 }
 
 .search_main_searchbar a {
-	font-family: 'GmarketSansBold';
-	font-size: 6vw;
+	margin: auto 0;
+}
+
+.search_main_searchbar img {
+	width: 8vw;
 	margin: auto 0;
 }
 
@@ -25,18 +22,12 @@
 	font-family: 'GmarketSansLight';
 	font-size: 5vw;
 	width: 70%;
-	margin: auto 0;
 	text-align: center;
+	margin: auto 0;
+	border: 2px solid #e8a761;
 	border-left-width:0;
 	border-right-width:0;
 	border-top-width:0;
-	border-bottom-width:0;
-}
-
-.search_main_searchbar img {
-	width: 7vw;
-	margin-left: 1%;
-	opacity: 50%;
 }
 
 .search_main_items {
@@ -75,27 +66,23 @@
 /* 576px 이상 tablet */
 @media (min-width: 576px){
 	
+.search_main_searchbar {
+	margin: 6vw auto;
+}
+
+.search_main_searchbar input {
+	border: 3px solid #e8a761;
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+}
+
 }
 
 /* 992px 이상 PC */
 @media (min-width: 992px) {
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

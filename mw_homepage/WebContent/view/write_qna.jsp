@@ -27,8 +27,6 @@
 		<jsp:include page="top.jsp" />
 	</div>
 	
-	<hr style="background-color: #444">
-
 	<div class="wrap-all">
 		<form>
 			<div class="qna_title">
@@ -40,7 +38,7 @@
 			</div>
 			<div class="qna_submit">
 				<input type="button" value="제출">
-				<input type="button" value="취소">
+				<input type="button" value="취소" onclick="back_go()">
 			</div>
 		</form>
 	</div>

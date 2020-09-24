@@ -22,14 +22,11 @@
 </head>
 
 <body>
-
 	
 	<div class="Wrap-all">
 		<div>
 			<jsp:include page="top.jsp" />
 		</div>
-		
-		<hr>
 		
 		<div class="header">
 			<div class="header_top">
@@ -60,19 +57,15 @@
 			
 			<div class="brief">
 				<div class="brief_item">
-					<img alt="search" src="../images/search.svg">
-					<h5>업종</h5>
+					<img alt="search" src="../images/kakaomap_favicon.ico">
+					<h5>카카오맵</h5>
 				</div>
 				<div class="brief_item">
-					<img alt="search" src="../images/search.svg">
-					<h5>영업시간</h5>
-				</div>
-				<div class="brief_item">
-					<img alt="search" src="../images/search.svg">
+					<img alt="search" src="../images/share.svg">
 					<h5>공유</h5>
 				</div>
 				<div class="brief_item">
-					<img alt="search" src="../images/search.svg" onclick="like_store()">
+					<img alt="search" src="../images/like.svg" onclick="like_store()">
 					<h5>좋아요</h5>
 				</div>
 			</div>
@@ -117,7 +110,7 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/search.svg" onclick="like_review()">
+						<img alt="like" src="../images/like.svg" onclick="like_review()">
 					</div>
 					<hr style="width: 94%; margin: 0 auto;">
 					<div class="review_context">
@@ -132,7 +125,7 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/search.svg" onclick="like_review()">
+						<img alt="like" src="../images/like.svg" onclick="like_review()">
 					</div>
 					<hr style="width: 94%; margin: 0 auto;">
 					<div class="review_context">
@@ -147,7 +140,7 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/search.svg" onclick="like_review()">
+						<img alt="like" src="../images/like.svg" onclick="like_review()">
 					</div>
 					<hr style="width: 94%; margin: 0 auto;">
 					<div class="review_context">

@@ -18,7 +18,7 @@
 		<jsp:include page="top.jsp" />
 	</div>
 	<div class="search_res_searchbar">
-		<img alt="search" src="../images/search.svg">
+		<img alt="search" src="../images/search_icon.svg">
 		<input type="text" name="search" placeholder="검색어">
 	</div>
 	<div class="cardview">

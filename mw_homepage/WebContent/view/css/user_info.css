@@ -34,7 +34,7 @@
 
 .menu_item input {
 	border: 2px solid #444;
-	border-radius: 5%;
+	border-radius: 10px;
 	background-color: white;
 	font-family: 'GmarketSansBold';
 	font-size: 6vw;
@@ -49,7 +49,32 @@
 	border-color: #e8a761;
 }
 
+/* 576px 이상 tablet */
+@media (min-width: 576px){
+	
+.info img {
+	padding: 2vw 0 5vw 0;
+	width: 30%;
+}
 
+.menu_item {
+	margin: 6vw 0;
+}
+
+.menu_item input {
+	font-size: 5vw;
+	width: 50%;
+	padding: 2vw;
+}
+	
+}
+
+/* 992px 이상 PC */
+@media (min-width: 992px) {
+.info {
+	display: flex;
+}
+}
 
 
 

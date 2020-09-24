@@ -21,7 +21,6 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
-	<hr>
 	
 	<div class="wrap-all">
 		<div class="main_banner">
@@ -38,7 +37,7 @@
 		
 		<div class="search-bar">
 			<input type="text" name="search" placeholder="검색어를 입력하세요."> 
-			<a href="search_res.jsp"><img alt="search" src="../images/search.svg"></a>
+			<a href="search_res.jsp"><img alt="search" src="../images/search_icon.svg"></a>
 		</div>
 		
 		<div class="story">
@@ -48,35 +47,35 @@
 		<div class="cardview">
 		<%-- <c:forEach var="k" item="${ }" > --%>
 			<div class="card">
-				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<img alt="shop" src="../images/shop.png">
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
 				</div>
 			</div>
 			<div class="card">
-				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<img alt="shop" src="../images/shop.png">
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
 				</div>
 			</div>
 			<div class="card">
-				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<img alt="shop" src="../images/shop.png">
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
 				</div>
 			</div>
 			<div class="card">
-				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<img alt="shop" src="../images/shop.png">
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
 				</div>
 			</div>
 			<div class="card">
-				<img alt="shop" src="../images/shop.png" style="width: 100%">
+				<img alt="shop" src="../images/shop.png">
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>

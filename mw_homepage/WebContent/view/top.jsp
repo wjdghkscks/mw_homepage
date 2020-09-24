@@ -8,50 +8,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/top.css">
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
-<style type="text/css">
-	.main_header {
-		font-family: 'GmarketSansBold';
-		display: flex;
-		flex-direction: row;
-		width: 90%;
-		margin: 4vw auto 3vw auto;
-	}
-	.title { margin: 0 auto; font-size: 5vw; }
-	.title a { color: #e8a761; }
-	.search img { height: 9vw; }
-	.main_navi { display: none; }
-	.mobile_menu { 
-		display: flex;
-		font-size: 8vw;
-		border: none;
-		background-color: RGBA(255, 255, 255, 0);
-	}
-	.mobile_menu a { color: #444; }
-
-/* 576px 이상 */
-@media (min-width: 576px){
-	.main_navi { display: none; }
-}
-
-/* 992px 이상 PC */
-@media (min-width: 992px) {
-	
-}
-</style>
 </head>
 
 <body>
-
 	<header class ="main_header">
-		<div>
-			<button class="mobile_menu"><a href="submenu_mobile.jsp">▼</a></button>
+		<div class="top_menu">
+			<a href="submenu_mobile.jsp"><img alt="menu" src="../images/menu.svg"></a>
 		</div>
-		<div class ="title">
+		<div class ="top_title">
 			<h1><a href="main.jsp">로고</a></h1>
 		</div>
-		<div class="search">
-			<a href="search_main.jsp"><img alt="search" src="../images/search.svg"></a>
+		<div class="top_search">
+			<a href="search_main.jsp"><img alt="search" src="../images/search_icon.svg"></a>
 		</div>
 		<nav class ="main_navi">
 			<ul class ="navi_wrap">
@@ -62,6 +32,7 @@
 			</ul>
 		</nav>
 	</header>
+	<hr>
 </body>
 
 </html>

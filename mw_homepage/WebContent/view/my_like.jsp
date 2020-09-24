@@ -17,7 +17,6 @@
 	<div>
 		<jsp:include page="top.jsp" />
 	</div>
-	<hr>
 	
 		<div class="like_title">
 			<h2>좋아요 리스트</h2>
