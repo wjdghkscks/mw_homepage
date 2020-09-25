@@ -17,12 +17,12 @@
 }
 
 .top_title {
-	margin: auto 0;
-	font-size: 5vw;
+	display: flex;
 }
 
-.top_title a {
-	color: #e8a761;
+.top_title img {
+	margin: auto 0;
+	width: 22vw;
 }
 
 .top_search {
@@ -49,7 +49,7 @@
 /* 992px 이상 PC */
 @media ( min-width : 992px) {
 	.main_header { 
-		width: 90%; 
+		width: 890px;; 
 		height: 100px;
 		margin: 0 auto;
 		display: flex;
@@ -60,7 +60,10 @@
 	.top_title { 
 		font-size: 30px;
 		margin: auto 0;
+		display: flex;
+		width: 400px;
 	}
+	.top_title img { width: 190px; }
 	.main_navi {
 		display: block;
 		width: 400px;
@@ -68,9 +71,11 @@
 		font-size: 24px;
 		color: #444;
 	}
-	
 	.navi_wrap {
 		display: flex;
 		justify-content: space-between;
+	}
+	.navi_wrap a:hover {
+		color: #e8a761;
 	}
 }

@@ -51,6 +51,14 @@
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
+					<div class="shop_info">
+						<img alt="like" src="../images/like.svg">
+						<h5>1,023</h5>
+						<img alt="like" src="../images/write.svg">
+						<h5>64</h5>
+						<img alt="like" src="../images/watch.svg">
+						<h5>39,806</h5>
+					</div>
 				</div>
 			</div>
 			<div class="card">
@@ -58,6 +66,14 @@
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
+					<div class="shop_info">
+						<img alt="like" src="../images/like.svg">
+						<h5>1,023</h5>
+						<img alt="like" src="../images/write.svg">
+						<h5>64</h5>
+						<img alt="like" src="../images/watch.svg">
+						<h5>39,806</h5>
+					</div>
 				</div>
 			</div>
 			<div class="card">
@@ -65,6 +81,14 @@
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
+					<div class="shop_info">
+						<img alt="like" src="../images/like.svg">
+						<h5>1,023</h5>
+						<img alt="like" src="../images/write.svg">
+						<h5>64</h5>
+						<img alt="like" src="../images/watch.svg">
+						<h5>39,806</h5>
+					</div>
 				</div>
 			</div>
 			<div class="card">
@@ -72,6 +96,14 @@
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
+					<div class="shop_info">
+						<img alt="like" src="../images/like.svg">
+						<h5>1,023</h5>
+						<img alt="like" src="../images/write.svg">
+						<h5>64</h5>
+						<img alt="like" src="../images/watch.svg">
+						<h5>39,806</h5>
+					</div>
 				</div>
 			</div>
 			<div class="card">
@@ -79,6 +111,14 @@
 				<div class="text_container">
 					<h4><b>NAME</b></h4>
 					<p>#tag1 #tag2</p>
+					<div class="shop_info">
+						<img alt="like" src="../images/like.svg">
+						<h5>1,023</h5>
+						<img alt="like" src="../images/write.svg">
+						<h5>64</h5>
+						<img alt="like" src="../images/watch.svg">
+						<h5>39,806</h5>
+					</div>
 				</div>
 			</div>
 		<%-- </c:forEach> --%>

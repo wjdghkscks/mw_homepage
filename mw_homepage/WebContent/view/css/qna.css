@@ -5,25 +5,9 @@
 	margin: 0 auto;
 }
 
-.btn {
-	text-align: center;
-	margin: 7vw 0;
-}
-
-.btn input {
-	font-family: 'GmarketSansBold';
-	background-color: #e8a761;
-	color: white;
-	border: thin;
-	border-radius: 1vw;
-	font-size: 6vw;
-	padding: 3vw;
-	width: 100%;
-}
-
 .list_title {
+	margin-top: 5vw;
 	text-align: center;
-	padding-bottom: 3vw;
 }
 
 .list_title h2 {
@@ -33,9 +17,28 @@
 	text-align: center;
 }
 
+.list_title input {
+	font-family: 'GmarketSansBold';
+	background-color: #e8a761;
+	color: white;
+	border: thin;
+	border-radius: 5px;
+	transition: 0.3s;
+	font-size: 4vw;
+	margin-top: 2vw;
+	padding: 2vw;
+	width: 100%;
+}
+
 .qna_list {
 	color: #444;
 	margin-top: 5vw;
+	border: 1px solid #444;
+	transition: 0.3s;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 1;
 }
 
 .qna_one {
@@ -71,6 +74,52 @@
 
 /* 992px 이상 PC */
 @media (min-width: 992px) {
+	.wrap-all {
+		width: 890px;
+		margin: 0 auto;
+	}
+	.list_title {
+		padding: 0;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.list_title input:hover {
+		border: 3px solid #e8a761;
+		box-shadow: 0 4vw 4vw 0 rgba(0,0,0,0.2);
+		border-radius: 10px;
+		background-color: white;
+		color: #e8a761;
+	}
+	.list_title h2 {
+		font-size: 80px;
+	}
+	.list_title input {
+		font-size: 30px;
+		border-radius: 10px;
+		width: 100%;
+		padding: 20px;
+		margin: 20px 0 0 0;
+	}
+	.qna_list {
+		margin: 50px 0;
+		border: 2px solid #444;
+		border-radius: 10px;
+	}
+	.qna_list:hover {
+		box-shadow: 0 4vw 4vw 0 rgba(0,0,0,0.2);
+		background-color: #e8a761;
+		border-color: #e8a761;
+	}
+	.qna_one {
+		margin: 30px 10px;
+		padding: 0 50px;
+	}
+	.qna_one h4 {
+		font-size: 28px;
+	}
+	.qna_one p {
+		font-size: 16px;
+	}
 	
 }
 

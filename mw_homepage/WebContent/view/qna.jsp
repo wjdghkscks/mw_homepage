@@ -26,47 +26,41 @@
 
 	<div class="wrap-all">
 		
-		<div class="btn">
+		<div class="list_title">
+			<h2>문의 리스트</h2>
 			<input type="button" value="문의하기" onclick="ask_go()">
 		</div>
 		
-		<div class="list_title">
-			<h2>문의 리스트</h2>
-		</div>
+		
 		<div class="qna_list">
 			<div class="qna_one">
 				<h4>문의 제목이 여기에 표시..</h4>
 				<p>0000-00-00</p>
 			</div>
-			<hr>
 		</div>
 		<div class="qna_list">
 			<div class="qna_one">
 				<h4>문의 제목이 여기에 표시...</h4>
 				<p>0000-00-00</p>
 			</div>
-			<hr>
 		</div>
 		<div class="qna_list">
 			<div class="qna_one">
 				<h4>문의 제목이 여기에 표시....</h4>
 				<p>0000-00-00</p>
 			</div>
-			<hr>
 		</div>
 		<div class="qna_list">
 			<div class="qna_one">
 				<h4>문의 제목이 여기에 표시.....</h4>
 				<p>0000-00-00</p>
 			</div>
-			<hr>
 		</div>
 		<div class="qna_list">
 			<div class="qna_one">
 				<h4>문의 제목이 여기에 표시......</h4>
 				<p>0000-00-00</p>
 			</div>
-			<hr>
 		</div>
 		
 	</div>

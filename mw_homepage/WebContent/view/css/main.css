@@ -127,6 +127,8 @@ html, body{ height: 100%; }
 	text-align: center;
 }
 
+.shop_info { display: none; }
+
 /* 576px 이상 tablet */
 @media (min-width: 576px){
 	
@@ -170,19 +172,16 @@ html, body{ height: 100%; }
 	.search-bar {
 		display: flex;
 		justify-content: space-between;
-		margin: 0 auto;
+		margin: 20px auto;
 	}
 	.search-bar input {
-		width: 90%;
+		width: 100%;
 		font-size: 30px;
 		text-align: center;
 		border-color: #444;
 	}
 	.search-bar a {
-		margin: auto 0;
-	}
-	.search-bar img {
-		width: 50%;
+		display: none;		
 	}
 	.story {
 		font-size: 24px;
@@ -201,11 +200,45 @@ html, body{ height: 100%; }
 	}
 	.card:hover {
 	  	width: 100%;
+	  	margin: 30px 0;
 	}
 	.card img {
 		width: 25%;
 		margin: auto 0;
 	}
+	.text_container {
+		padding: 0 0 0 24px;
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+	}
+	.text_container h4 {
+		font-size: 50px;
+		text-align: left;
+	}
+	.text_container p {
+		padding: 0 0 0 0;
+		font-size: 20px;
+		text-align: left;
+	}
+	
+	.shop_info {
+		margin: 40px 0 0 0px;
+		display: flex;
+		justify-content: space-between;
+		width: 250px;
+	}
+	
+	.shop_info h5 {
+		font-family: 'GmarketSansLight';
+		font-size: 18px;
+		color: #444;
+	}
+	
+	.shop_info img {
+		width: 18px;
+	}
+	
 	
 }
 
