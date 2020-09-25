@@ -45,7 +45,7 @@
 			<div class="menu_item">
 				<input type="button" value="좋아요" onclick="my_like()">
 			</div>
-			<div class="menu_item" style="padding-bottom: 12vw;">
+			<div class="menu_item" style="padding-bottom: 20px;">
 				<input type="button" value="내 리뷰" onclick="my_review()">
 			</div>
 		</div>

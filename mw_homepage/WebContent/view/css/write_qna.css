@@ -93,29 +93,29 @@ form {
 		text-align: center;
 	}
 	.qna_title h2 {
-		font-size: 80px;
+		font-size: 70px;
 	}
 	.qna_title input {
-		width: 100%;
-		font-size: 48px;
+		width: 80%;
 		margin: 40px auto;
+		font-size: 32px;
 	}
 	.qna_context {
 		margin: 20px auto 0 auto;
 	}
 	.qna_context textarea {
-		width: 90%;
-		height: 480px;
-		font-size: 36px;
+		width: 70%;
+		height: 240px;
+		font-size: 28px;
 		margin: 20px 0 20px 0;
 	}
 	.qna_context textarea::placeholder {
-		font-size: 36px;
+		font-size: 28px;
 	}
 	.qna_submit input {
-		font-size: 38px;
+		font-size: 36px;
 		padding: 10px;
-		width: 30%;
+		width: 20%;
 	}
 }
 

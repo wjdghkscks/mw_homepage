@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 /* main.jsp */
-html, body{ height: 100%; }
-
 .wrap-all {
 	display: flex;
 	flex-direction: column;
@@ -166,6 +164,7 @@ html, body{ height: 100%; }
 		font-size: 24px;
 		margin: 40px 20px;
 		color: #444;
+		padding: 16px 0;
 		border-radius: 10px;
 		border: 2px solid #444;
 	}
@@ -197,6 +196,7 @@ html, body{ height: 100%; }
 		box-shadow: 0 0 0 0 #fff;
 		border: 2px solid #444;
 		border-radius: 10px;
+		padding: 24px;
 	}
 	.card:hover {
 	  	width: 100%;

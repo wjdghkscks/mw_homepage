@@ -15,7 +15,7 @@
 }
 
 .review_list {
-	margin: 5vw 0;
+	margin: 5vw auto;
 }
 
 .review_item {
@@ -61,7 +61,35 @@
 
 /* 992px 이상 PC */
 @media (min-width: 992px) {
-	
+	.wrap-all {
+		width: 890px;
+		margin: 0 auto;
+	}
+	.review_title h2 {
+		padding-top: 0;
+		margin-top: 20px;
+		font-size: 70px;
+	}
+	.review_list {
+		width: 80%
+	}
+	.review_item {
+		padding: 30px;
+		margin: 20px auto;
+	}
+	.item_info {
+		margin-bottom: 10px;
+	}
+	.item_info h4 {
+		font-size: 36px;
+	}
+	.item_info h5 {
+		font-size: 24px;
+	}
+	.review_item p {
+		margin-top: 20px;
+		font-size: 28px;
+	}
 }
 
 

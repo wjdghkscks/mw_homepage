@@ -23,27 +23,36 @@
 
 <body>
 	
-	<div class="Wrap-all">
-		<div>
-			<jsp:include page="top.jsp" />
-		</div>
+	<div>
+		<jsp:include page="top.jsp" />
+	</div>
 		
+	<div class="wrap-all">
 		<div class="header">
 			<div class="header_top">
 				<div class="info_title">
 					<h2>가게이름</h2>
-					<h5>가게 주소는 여기에 들어갑니다.</h5>
+					<h5>가게 주소가 여기에 들어갑니다.</h5>
 				</div>
 				<div class="numbers">
-					<h5>like</h5>
-					<h5>comment</h5>
-					<h5>view</h5>
+					<div>
+						<h5>like&nbsp;
+						<img alt="like" src="../images/like.svg"></h5>
+					</div>
+					<div>
+						<h5>comment&nbsp;
+						<img alt="write" src="../images/write.svg"></h5>
+					</div>
+					<div>
+						<h5>view&nbsp;
+						<img alt="view" src="../images/watch.svg"></h5>
+					</div>
 				</div>
 			</div>
 			
 			<div class="photos">
 				<div class="pic_container">
-					<img alt="" src="../images/img_test.jpg">
+					<img alt="" src="../images/store_pic.png">
 				</div>
 			</div>
 			
@@ -53,8 +62,10 @@
 				<div>#hashtag3</div>
 			</div>
 			
-			<hr>
-			
+		</div>
+		
+			<hr class="only_mobile">
+		
 			<div class="brief">
 				<div class="brief_item">
 					<img alt="search" src="../images/kakaomap_favicon.ico">
@@ -69,9 +80,8 @@
 					<h5>좋아요</h5>
 				</div>
 			</div>
-		</div>
 		
-		<hr>
+		<hr class="only_mobile">
 			
 		<div class="article">
 			<!-- 
@@ -93,14 +103,14 @@
 				</ul>
 			</div>
 			
-			<hr>
+			<hr class="only_mobile">
 			
 			<div class="store_map">
 				<h2>지도</h2>
 				<img alt="" src="../images/store_map.png">
 			</div>
 			
-			<hr>
+			<hr class="only_mobile">
 			
 			<div class="store_review">
 				<h2>리뷰</h2>
@@ -110,9 +120,12 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/like.svg" onclick="like_review()">
+						<div class="review_like">
+							<img alt="like" src="../images/like.svg" onclick="like_review()">
+							<p>109</p>
+						</div>
 					</div>
-					<hr style="width: 94%; margin: 0 auto;">
+					<hr>
 					<div class="review_context">
 						<p>
 							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
@@ -125,9 +138,12 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/like.svg" onclick="like_review()">
+						<div class="review_like">
+							<img alt="like" src="../images/like.svg" onclick="like_review()">
+							<p>98</p>
+						</div>
 					</div>
-					<hr style="width: 94%; margin: 0 auto;">
+					<hr>
 					<div class="review_context">
 						<p>
 							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
@@ -140,16 +156,18 @@
 							<h5><b>작성자 이름</b></h5>
 							<p>방문 일자가 여기에 표시됩니다.</p>
 						</div>
-						<img alt="like" src="../images/like.svg" onclick="like_review()">
+						<div class="review_like">
+							<img alt="like" src="../images/like.svg" onclick="like_review()">
+							<p>87</p>
+						</div>
 					</div>
-					<hr style="width: 94%; margin: 0 auto;">
+					<hr>
 					<div class="review_context">
 						<p>
 							리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다. 리뷰 내용이 여기에 표시됩니다.
 						</p>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 		

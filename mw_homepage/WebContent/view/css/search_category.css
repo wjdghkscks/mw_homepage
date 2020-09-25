@@ -63,6 +63,13 @@
 	border-color: #e8a761;
 }
 
+.story {
+	font-family: 'GmarketSansLight';
+	text-align: center;
+	color: #444;
+	font-size: 6vw;
+}
+
 .cardview {
 	display: flex;
 	flex-wrap: wrap;
@@ -83,6 +90,7 @@
 }
 
 .card img {
+	width: 100%;
 	margin-top: 2vw;
 }
 
@@ -104,25 +112,26 @@
 	text-align: center;
 }
 
+.shop_info { display: none; }
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
 
-.biggerCategory div {
-	border: 3px solid #444;
-	border-radius: 10px;
-}
-
-.smallEat div {
-	border: 3px solid #444;
-	border-radius: 50%;
-}
-
-.smallEat {
-	width: 245%;
-}
+	.biggerCategory div {
+		border: 3px solid #444;
+		border-radius: 10px;
+	}
 	
-}
+	.smallEat div {
+		border: 3px solid #444;
+		border-radius: 50%;
+	}
+	
+	.smallEat {
+		width: 245%;
+	}
+		
+	}
 
 /* 992px 이상 PC */
 @media (min-width: 992px) {
@@ -131,7 +140,7 @@
 		margin: 0 auto;
 	}
 	.biggerCategory {
-		margin: 40px auto 0 auto;
+		margin: 30px auto 0 auto;
 	}
 	.biggerCategory div {
 		font-size: 32px;
@@ -153,6 +162,62 @@
 		margin: 2px;
 		font-size: 20px;
 	}
+	.story {
+		font-size: 40px;
+		margin: 40px auto 0 auto;
+	}
+	.cardview {
+		display: flex;
+		width: 88%;
+		margin: 34px auto 0 auto;
+	}
+	.card {
+		display: flex;
+		width: 100%;
+		margin: 20px auto;
+		box-shadow: 0 0 0 0 #fff;
+		border: 2px solid #444;
+		border-radius: 10px;
+		padding: 24px;
+	}
+	.card:hover {
+	  	width: 100%;
+	  	margin: 30px 0;
+	}
+	.card img {
+		width: 25%;
+		margin: auto 0;
+	}
+	.text_container {
+		padding: 0 0 0 24px;
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+	}
+	.text_container h4 {
+		font-size: 50px;
+		text-align: left;
+	}
+	.text_container p {
+		padding: 0 0 0 0;
+		font-size: 20px;
+		text-align: left;
+	}
+	.shop_info {
+		margin: 40px 0 0 0px;
+		display: flex;
+		justify-content: space-between;
+		width: 250px;
+	}
+	.shop_info h5 {
+		font-family: 'GmarketSansLight';
+		font-size: 18px;
+		color: #444;
+	}
+	.shop_info img {
+		width: 18px;
+	}
+	
 }
 
 
