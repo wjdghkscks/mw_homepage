@@ -114,6 +114,11 @@
 	font-size: 4vw;
 }
 
+.store_info ul {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .store_info li {
 	font-family:'GmarketSansLight';
 	font-size: 4vw;
@@ -215,7 +220,7 @@
 		margin: 0 auto;
 	}
 	.header {
-		background-color: rgba(200, 200, 200, 0.1);
+		background-color: rgba(200, 200, 200, 0.2);
 		padding: 30px;
 		margin: 30px 0;
 		border-radius: 10px;
@@ -256,7 +261,7 @@
 	}
 	.brief {
 		padding: 0 80px;
-		background-color: rgba(200, 200, 200, 0.1); 
+		background-color: rgba(200, 200, 200, 0.2); 
 		border-radius: 10px;
 	}
 	.brief_item {
@@ -271,7 +276,7 @@
 	}
 	.store_info {
 		padding: 20px 40px;
-		background-color: rgba(200, 200, 200, 0.1); 
+		background-color: rgba(200, 200, 200, 0.2); 
 		padding: 30px;
 		margin: 30px 0;
 		border-radius: 10px;
@@ -289,7 +294,7 @@
 	}
 	.store_map {
 		padding: 20px 40px;
-		background-color: rgba(200, 200, 200, 0.1); 
+		background-color: rgba(200, 200, 200, 0.2); 
 		padding: 30px;
 		margin: 30px 0;
 		border-radius: 10px;
@@ -304,7 +309,7 @@
 	}
 	.store_review {
 		padding: 20px 40px;
-		background-color: rgba(200, 200, 200, 0.1); 
+		background-color: rgba(200, 200, 200, 0.2); 
 		padding: 30px;
 		margin: 30px 0;
 		border-radius: 10px;

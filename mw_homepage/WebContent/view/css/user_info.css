@@ -17,7 +17,7 @@
 
 .info h2 {
 	font-family: 'GmarketSansBold';
-	font-size: 8vw;
+	font-size: 10vw;
 	color: #444;
 }
 
@@ -91,11 +91,11 @@
 		height: 100px;
 	}
 	.profile_text h2 {
-		font-size: 36px;
+		font-size: 60px;
 		text-align: left;
 	}
 	.profile_text h4 {
-		font-size: 24px;
+		font-size: 16px;
 	}
 	
 	.menu_item {
