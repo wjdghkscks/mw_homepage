@@ -10,38 +10,16 @@
 <title>명월-명지월드의 모든 것</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/resetAll.css">
+<!-- slick css -->
+<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
+<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://kenwheeler.github.io/slick/slick/slick.min.js"></script>
 <script type="text/javascript">
 	function category_go() {
 		location.href = "search_category.jsp";		
 	}
 </script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
-	var idx = 0; 			// 함수 호출 횟수
-	var i=0; 				// 이미지 인덱스
-	var imgNum=3; 			// 이미지 개수
-	var imgSize=960; 		// 이미지 크기
-	function imgSlide() {
-		idx = idx + 1; 		// 함수 호출 회수 증가
-		i=(idx-1)%imgNum; 	// 이미지는 3개를 돌려 쓸거라서
-	  						// idx-1을 해주는 이유 : idx>1 일 때부터 리스트 삭제, 추가가 이루어짐(1초 뒤부터 리스트 추가)
-		if(i==0){
-			i=imgNum; 		// 1,2,3,1,2,3 이 반복되어야 함
-		}
-		
-		$('.main_banner').css({"left":"0px"}); // 0 -> -imgSize을 반복하기 위해
-		
-	   	$('.main_banner').stop().animate({'left' : -imgSize+"px"}, "slow");
-		if(idx>1){ //idx>0으로 하면 첫 번째 리스트가 슬라이스되기전에 삭제가 된다.
-			$('.main_banner>img:first').remove(); // 제일 첫 <img> 삭제
-			$('.main_banner').append('<img src="../images/banner0'+i+'.png"');
-	    //마지막에 <img> 추가
-		}
-		
-	}
-	// 3초에 한번 함수를 실행
-	setInterval(function() { imgSlide() }, 3000);
-</script> -->
 </head>
 
 <body>
@@ -49,15 +27,33 @@
 		<jsp:include page="top.jsp" />
 	</div>
 	
-	<div id="imgSlide" class="wrap-all">
+	<div class="wrap-all">
 		<div class="banner_container">
 			<div class="main_banner">
-				<img src="../images/banner01.png">
-				<img src="../images/banner02.png">
-				<img src="../images/banner03.png">
+				<div><img src="../images/banner01.png"></div>
+				<div><img src="../images/banner02.png"></div>
+				<div><img src="../images/banner03.png"></div>
 			</div>
 		</div>
 		
+		<!-- slick js -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+		
+				$('.main_banner').slick({
+					autoplay : true,
+					dots : true,
+					appendDots : $('banner_container'),
+					speed : 900, 			/* 이미지 슬라이딩 시 걸리는 시간 */
+					infinite : true,
+					autoplaySpeed : 4000, 	/* 다른 이미지로 넘어 갈 때 걸리는 시간 */
+					slidesToShow : 1,
+					slidesToScroll : 1,
+					draggable: true,
+					fade : false
+				});
+			});
+		</script>
 		
 		<div class="category">
 			<div onclick="category_go()">먹거리</div>

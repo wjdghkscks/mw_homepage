@@ -37,7 +37,7 @@
 	font-family:'GmarketSansBold';
 	width: 30%;
 	padding: 1vw;
-	margin: 8vw 2vw 4vw 2vw;
+	margin: 0vw 2vw 2vw 2vw;
 	text-align: center;
 	font-size: 5vw;
 	color: #444;
@@ -122,6 +122,10 @@
 
 .shop_info { display: none; }
 
+.slick-dots li.slick-active button:before {
+    color:orange !important;
+}
+
 /* 576px 이상 tablet */
 @media (min-width: 576px){
 	
@@ -148,15 +152,12 @@
 /* 992px 이상 PC */
 @media (min-width: 992px) {
 	.wrap-all {
-		width: 890px;
+		width: 960px;
 		margin: 0 auto;
 	}
 	.main_banner {
 		margin: 30px auto 0 auto;
 		border-radius: 20px;
-	}
-	.main_banner img {
-		
 	}
 	.category div {
 		font-size: 24px;
@@ -240,7 +241,6 @@
 		width: 25px;
 		height: 25px;
 	}
-	
 	
 }
 
