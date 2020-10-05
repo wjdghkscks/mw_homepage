@@ -78,7 +78,25 @@ form {
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
-	
+	.qna_title input {
+		margin: 4vw 0;
+		font-size: 5vw;
+	}
+	.qna_context {
+		margin: 1vw 5vw 3vw 5vw;
+	}
+	.qna_context textarea {
+		height: 50vw;
+		font-size: 4vw;
+	}
+	.qna_context textarea::placeholder {
+		font-size: 4vw;
+	}
+	.qna_submit input {
+		font-size: 5vw;
+		padding: 0;
+		height: 12vw;
+	}
 }
 
 /* 992px 이상 PC */

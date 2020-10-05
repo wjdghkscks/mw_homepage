@@ -69,7 +69,18 @@
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
-	
+	.list_title {
+		margin: 5vw 0 7vw 0;
+	}
+	.list_title input {
+		margin-top: 3vw;
+	}
+	.qna_one h4 {
+		font-size: 4.5vw;
+	}
+	.qna_one p {
+		font-size: 3vw;
+	}
 }
 
 /* 992px 이상 PC */

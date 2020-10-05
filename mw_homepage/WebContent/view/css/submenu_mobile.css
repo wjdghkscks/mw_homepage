@@ -20,7 +20,9 @@
 
 /* 576px 이상 tablet */
 @media (min-width: 576px){
-	
+.submenu_list li {
+	font-size: 7vw;
+}
 }
 
 /* 992px 이상 PC */
